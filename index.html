@@ -1,11 +1,197 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Nana</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Anna Li's personal website with bio, education, selected publications, and experience."
+    />
+    <title>Anna Li</title>
+    <link rel="icon" type="image/png" href="assets/images/113733207-circle.png" />
+    <link rel="apple-touch-icon" href="assets/images/113733207-circle.png" />
+    <meta name="apple-mobile-web-app-title" content="Anna Li" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&family=Libre+Baskerville:wght@400;700&family=Marvel:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
-    <h1>Hello from Nana's site</h1>
+    <div class="page-shell">
+      <header class="site-header" data-header>
+        <div class="nav-wrap">
+          <a class="brand" href="#top">
+            <span class="brand-mark">
+              <img src="assets/images/113733207.png" alt="" aria-hidden="true" />
+            </span>
+            <span class="brand-text">nana14</span>
+          </a>
+
+          <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+            Menu
+          </button>
+
+          <nav class="site-nav" id="site-nav">
+            <a href="#about" data-nav-link>About</a>
+            <a href="#education" data-nav-link>Education</a>
+            <a href="#experience" data-nav-link>Experience</a>
+            <a href="#publications" data-nav-link>Publications</a>
+          </nav>
+        </div>
+      </header>
+
+      <main id="top">
+        <section class="hero section-observed" id="about" data-section="about">
+          <div class="hero-backdrop" aria-hidden="true">
+            <div class="mist mist-one" data-parallax></div>
+            <div class="mist mist-two" data-parallax></div>
+            <div class="grid-glow"></div>
+          </div>
+
+          <div class="hero-layout">
+            <div class="hero-copy">
+              <p class="eyebrow">zhixian8 [at] illinois [dot] edu</p>
+              <h1>Anna Li</h1>
+              <p class="hero-intro">
+                I am an incoming Ph.D. student in ECE at University of Illinois Urbana-Champaign advised by <a href="https://jianh.web.engr.illinois.edu/" target="_blank" rel="noreferrer" style="text-decoration: underline;">Professor Jian Huang.</a>
+
+              </p>
+              <p class="hero-intro">
+                Prior to my PhD study, I completed my bachelor's degree in CS at the University of Toronto, where I was advised by 
+                <a href="https://www.cs.toronto.edu/~nandita/" target="_blank" rel="noreferrer" style="text-decoration: underline;">Professor Nandita Vijaykumar</a>
+                and <a href="https://qizhenzhang.me/" target="_blank" rel="noreferrer" style="text-decoration: underline;">Professor Qizhen Zhang</a>.
+              </p>
+
+              <p class="research-line">
+                <span>Research Interests</span>
+                Computer Architecture, Computer Systems, Efficient Hardware for AI.  
+              </p>
+
+            </div>
+
+            <div class="hero-portrait-wrap">
+              <div class="hero-portrait">
+                <img src="assets/images/profile.jpg" alt="Portrait of Nana" />
+              </div>
+              <div class="profile-links" aria-label="Relevant links">
+                <a class="icon-link" href="https://github.com/annali07" target="_blank" rel="noreferrer" aria-label="GitHub">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 2C6.48 2 2 6.58 2 12.23c0 4.52 2.87 8.35 6.84 9.7.5.1.68-.22.68-.49 0-.24-.01-1.05-.01-1.91-2.78.62-3.37-1.21-3.37-1.21-.46-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .08 1.53 1.06 1.53 1.06.9 1.56 2.35 1.11 2.92.85.09-.67.35-1.11.63-1.36-2.22-.26-4.56-1.14-4.56-5.08 0-1.12.39-2.04 1.03-2.76-.1-.26-.45-1.31.1-2.73 0 0 .84-.28 2.75 1.05A9.3 9.3 0 0 1 12 6.84c.85 0 1.71.12 2.51.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.42.2 2.47.1 2.73.64.72 1.03 1.64 1.03 2.76 0 3.95-2.35 4.82-4.58 5.07.36.32.68.95.68 1.92 0 1.39-.01 2.51-.01 2.85 0 .27.18.59.69.49A10.25 10.25 0 0 0 22 12.23C22 6.58 17.52 2 12 2Z" />
+                  </svg>
+                </a>
+                <a class="icon-link" href="https://www.linkedin.com/in/anna-li-7191a0294/?originalSubdomain=ca" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M6.94 8.5A1.56 1.56 0 1 1 6.93 5.38 1.56 1.56 0 0 1 6.94 8.5ZM5.5 9.75h2.88V19H5.5V9.75Zm4.68 0h2.76v1.26h.04c.38-.73 1.32-1.5 2.71-1.5 2.9 0 3.43 1.94 3.43 4.46V19h-2.88v-4.42c0-1.05-.02-2.4-1.46-2.4-1.47 0-1.69 1.15-1.69 2.33V19h-2.91V9.75Z" />
+                  </svg>
+                </a>
+                <a class="icon-link" href="https://scholar.google.com/citations?user=FPfLAT4AAAAJ&hl=en" target="_blank" rel="noreferrer" aria-label="Google Scholar">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 3 1 9l11 6 11-6-11-6Zm-7 8.91V16l7 3.82L19 16v-4.09l-7 3.82-7-3.82Z" />
+                  </svg>
+                </a>
+                <!-- <a class="icon-link" href="assets/Anna_Li_CV.pdf" aria-label="Curriculum Vitae" download>
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M7 2.75h7.38L19.25 7.6V20A1.25 1.25 0 0 1 18 21.25H7A1.25 1.25 0 0 1 5.75 20V4A1.25 1.25 0 0 1 7 2.75Zm6.5 1.8V8h3.45L13.5 4.55ZM9 11h6v1.5H9V11Zm0 3h6v1.5H9V14Zm0 3h4.5v1.5H9V17Z" />
+                  </svg>
+                </a> -->
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="sections-bridge">
+          <div class="content-section continuous-surface">
+            <section class="section-observed section-group" id="education" data-section="education">
+              <div class="section-kicker">
+                <p class="eyebrow">Education</p>
+              </div>
+
+              <div class="section-box">
+              <div class="background-list">
+                <article class="background-item">
+                  <div class="background-date">2026 - Present</div>
+                  <div class="background-body">
+                    <h3>PhD in Electrical and Computer Engineering</h3>
+                    <p>University of Illinois Urbana-Champaign</p>
+                  </div>
+                </article>
+                <article class="background-item">
+                  <div class="background-date">2023 - 2026</div>
+                  <div class="background-body">
+                    <h3>Bachelor of Science in Computer Science</h3>
+                    <p>University of Toronto St.George Campus</p>
+                  </div>
+                </article>
+                <article class="background-item">
+                  <div class="background-date">2019 - 2023</div>
+                  <div class="background-body">
+                    <h3>International Baccalaureate Diploma Programme</h3>
+                    <p>St. Robert Catholic High School</p>
+                  </div>
+                </article>
+              </div>
+              </div>
+            </section>
+
+            <section class="section-observed section-group" id="experience" data-section="experience">
+              <div class="section-kicker">
+                <p class="eyebrow">Experience</p>
+              </div>
+
+              <div class="section-box">
+              <div class="background-list">
+                <article class="background-item">
+                  <div class="background-date">2026.1 - 2026.4</div>
+                  <div class="background-body">
+                    <h3>Teaching Assistant for Operating Systems</h3>
+                    <p>TA for CSC369S at the University of Toronto St. George Campus</p>
+                  </div>
+                </article>
+              </div>
+              </div>
+            </section>
+
+            <section
+              class="section-observed section-group"
+              id="publications"
+              data-section="publications"
+            >
+              <div class="section-kicker">
+                <p class="eyebrow">Selected Publications</p>
+              </div>
+
+              <div class="card-stack">
+                <article class="info-card">
+                  <div class="card-topline">
+                    <span>Paper</span>
+                    <span>2025</span>
+                  </div>
+                  <h3>dpBento: Benchmarking DPUs for Data Processing</h3>
+                  <p>
+                    
+                  </p>
+                  <p class="inline-links">
+                    <a href="https://arxiv.org/pdf/2504.05536v1" target="_blank" rel="noreferrer">Paper Link</a>
+                  </p>
+                </article>
+
+              </div>
+            </section>
+          </div>
+        </div>
+
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-wrap">
+          <p>Copyright © 2026 Anna Li. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
-
