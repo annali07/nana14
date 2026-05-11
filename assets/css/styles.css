@@ -199,7 +199,7 @@ main::before {
   left: 50%;
   width: var(--width);
   transform: translateX(-50%);
-  background: #fbf8fc;
+  background: #ffffff;
   border: 1px solid rgba(127, 97, 165, 0.06);
   z-index: 0;
   pointer-events: none;
